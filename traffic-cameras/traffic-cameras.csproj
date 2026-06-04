@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,13 +8,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-	<ItemGroup>
-		<PackageReference Include="FFMpegCore" Version="5.4.0" />
-		<PackageReference Include="Microsoft.Extensions.AI" Version="10.3.0" />
-		<PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.3" />
-		<PackageReference Include="OllamaSharp" Version="5.4.16" />
-		<PackageReference Include="PuppeteerSharp" Version="21.0.1" />
-		
-	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FFMpegCore" Version="5.4.0" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="11.0.0-preview.1.26104.118" />
+    <PackageReference Include="OllamaSharp" Version="5.4.16" />
+    <PackageReference Include="PuppeteerSharp" Version="21.0.1" />
+  </ItemGroup>
 
 </Project>
